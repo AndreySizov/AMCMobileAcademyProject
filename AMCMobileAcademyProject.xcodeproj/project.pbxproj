@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55A5B1E1241A8961009C165D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5B1E0241A8961009C165D /* TableViewController.swift */; };
+		55A5B1E3241A8EDE009C165D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5B1E2241A8EDE009C165D /* CustomTableViewCell.swift */; };
+		55A5B1E5241A9745009C165D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5B1E4241A9745009C165D /* MapViewController.swift */; };
+		55A5B1E7241A9F4D009C165D /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5B1E6241A9F4D009C165D /* VideoViewController.swift */; };
 		55CDBBD6240D5D8800DB3535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDBBD5240D5D8800DB3535 /* AppDelegate.swift */; };
 		55CDBBD8240D5D8800DB3535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDBBD7240D5D8800DB3535 /* SceneDelegate.swift */; };
 		55CDBBDA240D5D8800DB3535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDBBD9240D5D8800DB3535 /* ViewController.swift */; };
 		55CDBBDD240D5D8800DB3535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CDBBDB240D5D8800DB3535 /* Main.storyboard */; };
 		55CDBBDF240D5D8900DB3535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CDBBDE240D5D8900DB3535 /* Assets.xcassets */; };
 		55CDBBE2240D5D8900DB3535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CDBBE0240D5D8900DB3535 /* LaunchScreen.storyboard */; };
+		55D292B02411621D003AF577 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D292AF2411621C003AF577 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55A5B1E0241A8961009C165D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		55A5B1E2241A8EDE009C165D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		55A5B1E4241A9745009C165D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		55A5B1E6241A9F4D009C165D /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		55CDBBD2240D5D8800DB3535 /* AMCMobileAcademyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMCMobileAcademyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CDBBD5240D5D8800DB3535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CDBBD7240D5D8800DB3535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		55CDBBDE240D5D8900DB3535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55CDBBE1240D5D8900DB3535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55CDBBE3240D5D8900DB3535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D292AF2411621C003AF577 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				55CDBBDE240D5D8900DB3535 /* Assets.xcassets */,
 				55CDBBE0240D5D8900DB3535 /* LaunchScreen.storyboard */,
 				55CDBBE3240D5D8900DB3535 /* Info.plist */,
+				55D292AF2411621C003AF577 /* SecondViewController.swift */,
+				55A5B1E0241A8961009C165D /* TableViewController.swift */,
+				55A5B1E2241A8EDE009C165D /* CustomTableViewCell.swift */,
+				55A5B1E4241A9745009C165D /* MapViewController.swift */,
+				55A5B1E6241A9F4D009C165D /* VideoViewController.swift */,
 			);
 			path = AMCMobileAcademyProject;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A5B1E3241A8EDE009C165D /* CustomTableViewCell.swift in Sources */,
+				55D292B02411621D003AF577 /* SecondViewController.swift in Sources */,
+				55A5B1E7241A9F4D009C165D /* VideoViewController.swift in Sources */,
 				55CDBBDA240D5D8800DB3535 /* ViewController.swift in Sources */,
 				55CDBBD6240D5D8800DB3535 /* AppDelegate.swift in Sources */,
+				55A5B1E1241A8961009C165D /* TableViewController.swift in Sources */,
 				55CDBBD8240D5D8800DB3535 /* SceneDelegate.swift in Sources */,
+				55A5B1E5241A9745009C165D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AMCMobileAcademyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AMCiOS.AMCMobileAcademyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AMCMobileAcademyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AMCiOS.AMCMobileAcademyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
